@@ -185,7 +185,8 @@ class TestEvent(TestCase):
             "status": "UP ",
             "severity": "주의"
         }
-        param_list = [
+        raw_data_resource_name = {}
+        param_list = [ 
                       # raw_data_2,
                       # raw_data_3,
                       # raw_data_4,
